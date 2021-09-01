@@ -1,0 +1,5 @@
+import qrcode
+import cv2
+
+img = qrcode.make('https://scratch.mit.edu/')
+img.save('Pass.png')
